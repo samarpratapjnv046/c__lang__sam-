@@ -1,0 +1,53 @@
+/* #box1{ 
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+        font-size: 20PX;
+}
+#box2{ 
+    height: 100px;
+    width: 33%;
+    background-color: brown;
+    font-size: 0.5em;
+    width: 5em;
+    height: 100vh;
+} */
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+/* #box1{
+    position: static;
+    top: 50px;
+    bottom: 50px;
+}
+#box2{
+    position: relative;
+    top: 20px;
+    bottom: 10px;
+}
+#box3{
+    position: absolute;
+     position: sticky;
+    top: 10px;
+    bottom: 0px;
+    right: 50px;
+    z-index:5;
+}
+
+#box4{
+    position: fixed;
+    top: 0;
+}  */
+#box1{
+    background-image: url("sam.jpg");
+    background-size: cover;
+}
+body{
+    background-image: url("sam.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

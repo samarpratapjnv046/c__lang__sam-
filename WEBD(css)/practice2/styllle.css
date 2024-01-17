@@ -1,0 +1,16 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+#outer{
+    text-align: center;
+    font-size: 25px;
+}
+#inner{
+    text-align: center;
+    font-size: 10px;
+}

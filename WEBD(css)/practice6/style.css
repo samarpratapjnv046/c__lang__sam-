@@ -1,0 +1,33 @@
+/* ul{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+a{
+    text-transform: none;
+    text-decoration: none;
+    color:rgb(255, 0,0);
+ 
+}
+li{
+    list-style-type: none;
+    background-color: red; 
+     display: inline;
+
+    
+} */
+/* problem2 */
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    height: 200px;
+    width: 200px;
+    background-color:blue;
+}
