@@ -1,0 +1,9 @@
+#box{
+    height: 200px;
+    width: 100px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+
+}

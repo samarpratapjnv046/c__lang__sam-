@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0; 
+    background-color:rgb(255, 137, 82) ;
+    background-image: url(logo.b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    width: 100%;
+    
+}
+
+ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    height: 60px;
+    background-color:pink ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 60px;
+}
+li{
+    float: left;
+    /* border-right: 1px solid #156ee2; */
+}
+a{
+    display: block;
+    padding: 0 28px;
+    color: #6c1e1e;
+    text-decoration: none;
+
+}
+a:hover{
+    background-color: #67a9ff;
+}
+.active a{
+    background-color: #67a9ff;
+}
+.contact-form{
+    width: 85%;
+    max-width: 600px;
+    background: #eee;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 40px;
+    border-radius: 8px;
+    text-align: center;
+}
+.form{
+    border: 1px solid #a9a9a9;
+    margin: 7px 0;
+    padding: 6px 20px;
+    border-radius: 8px;
+}
+.contact-form h1{
+    font-weight: 500;
+    margin-top: 0px;
+}
+.form label{
+    font-size: 13px;
+    color: #000;
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+}
+.form input,.form textarea{
+    width: 100%;
+    font-size: 19px;
+    margin-top: 5px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.button{
+    width: 100%;
+    display: inline-block;
+    background-color: #95c44f;
+    padding: 14px 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 8px;
+    cursor: pointer;
+    color: #fff;
+}
+.hello{
+    position: absolute;
+    height: 60px;
+    right:0px;
+    width: 250px;
+}
