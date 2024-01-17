@@ -1,0 +1,1 @@
+cout<<"sum is :"<<getsum(arr,5)<<endl;
